@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const convertToJSON = (fileName) => {
-    if(!checkIfCorrectInput(fileName)) return 1;;
+    if(!checkIfCorrectInput(fileName)) return 1;
     const encoding = 'utf-8';
     const lineSeparator =  new RegExp(/\r\n/g);
     const itemsDelimiter = ',';
